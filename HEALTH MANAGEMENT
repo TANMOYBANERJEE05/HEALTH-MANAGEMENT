@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Emergency Assistance</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 480px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .bot-icon {
+      width: 50px;
+      margin-top: 10px;
+    }
+
+    h2 {
+      color: #d47900;
+    }
+
+    button, input[type="text"] {
+      display: block;
+      width: 80%;
+      margin: 10px auto;
+      padding: 12px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .main-btn {
+      background-color: #f87d7d;
+      color: black;
+      font-weight: bold;
+    }
+
+    .back-btn {
+      background-color: #90ee90;
+      width: 100px;
+    }
+
+    .section {
+      display: none;
+    }
+
+    .show {
+      display: block;
+    }
+
+    .input-box {
+      background-color: #93e6dc;
+      padding: 10px;
+      color: black;
+    }
+
+    .prescription-btn {
+      background-color: #d4ff1f;
+      font-weight: bold;
+    }
+
+    .order-btn {
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <img src="https://img.icons8.com/ios/100/robot.png" class="bot-icon" alt="Bot Icon">
+  <h2>Hello! How Can I Help You</h2>
+
+  <button class="main-btn" onclick="show
